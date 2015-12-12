@@ -1,0 +1,722 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+*, *:before, *:after {
+
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+    background-color: #e3e0c1;
+}
+
+h1, h2, h3 {
+
+    font-weight: 100;
+}
+
+time {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.topbar {
+
+    padding: 0.625em;
+    padding-bottom: 0.938em; 
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+
+text-align: center;
+    
+}
+
+.logo img {
+        
+        padding: 0.5em;
+        height: 8em;
+        width: auto;
+        vertical-align: middle;
+}
+.logoh {
+
+    position: absolute;
+    top: 1em;
+    right: 1em;
+
+}
+.logoh img {
+        float: right;
+        padding: 0.5em;
+        height: 2.8em;
+        width: auto;
+        vertical-align: middle;
+}
+   
+
+.mainmenu {
+
+
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+
+}
+
+.mainmenu li {
+                        
+                        padding: 0 1em;
+                        line-height: 3em;
+                        display: inline-block;
+                    }
+
+.mainmenu li a {
+                        text-transform: uppercase;
+                        color: #740b00;
+                        font: normal 100 1em 'Raleway', sans-serif;
+                        text-decoration: none;
+                        vertical-align: middle;
+
+                    }
+
+.logo_container {
+
+    background-image:url(../img/cc.jpg);
+    height: 21.875em;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1.2em solid #e3e0c1;
+    overflow: hidden;
+
+}
+
+.top_name {
+
+    text-align: center;
+    color: #e3e0c1;
+    font-size: 1.5em;
+    padding-bottom: 6.8em;
+    font-weight: 100;
+}
+
+.top_logo {
+
+    display: none;
+}
+
+.top_logo img {
+
+     width: 12em;
+    height: 11em;
+}
+
+.top_add {
+
+    text-align: center;
+    color: #e3e0c1;
+    font-size: 0.8em;
+    padding-top: 4em;
+    font-weight: 100;
+    
+}
+
+.arthead {
+
+    background-color: #740b00;
+    width: 100%;
+    height: 5em;
+    overflow: hidden;
+
+}
+
+.arthead time {
+    color:  #e3e0c1;
+    float: left;
+    padding-top: 1.250em;
+    width: 6.250em;
+    text-align: center;
+    margin-right: 1em;
+    height: 5em;
+    border-right: 0.250em solid #e3e0c1;  
+}
+
+.arthead h1 {
+    text-align: center;
+    color:  #e3e0c1;
+    font-size: 1em;
+    margin: auto;
+    width: 24.375em;
+    padding: 0 2em;
+    line-height: 2em;
+    padding-top: 0.4em;    
+}
+
+
+.music {
+
+    display: none;
+}
+.content {
+
+    margin: 4em;
+    font-size: 1em;
+    line-height: 1.8em;
+    padding-bottom: 3em;
+    border-bottom: 0.063em solid #333;
+}
+
+.con_pic {
+
+     display: none;
+}
+
+.con_pic img{
+
+    width: 28.8em;
+    height: 37.938em;
+}
+
+.cont_back {
+
+   display: none;
+   
+   }
+
+.social {
+    color: #333;
+    text-align: center;
+
+}
+
+.extra {
+    display: none;
+}
+
+.share {
+
+    list-style: none;
+    text-align: center;
+    padding: 0.8em;
+
+ 
+}
+
+.share li {
+    display: inline-block;
+    background-color: #e3e0c1;
+    width: 4em;
+    height: 4em;
+    padding: 1em;
+    border-radius: 2.5em;
+    border: 0.2em solid #740b00;
+    margin: 1em;
+}
+
+.share img {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.address {
+
+    background-color: #333;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #e3e0c1;
+}
+
+
+.article {
+
+    overflow: hidden;
+}
+
+.tweet {
+
+    display: none;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 24.375em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+@media (min-width: 48em) {
+
+    .top_name {
+
+        display: none;
+    }
+
+
+.top_logo {
+
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.top_logo img {
+
+    margin: 2.5em;
+    margin-left: 10em;
+    transition: margin 1s;
+}
+
+.top_add {
+
+    padding-top: 2em;
+    
+}
+
+.arthead h1 {
+    font-size: 1.2em;
+    width: 600px;
+    padding: 0 2em;
+    padding-top: 1em;
+    line-height: 2em;
+  
+}
+
+.content {
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    font-size: 1em;
+    padding-bottom: 3em;
+    
+    }
+
+
+.con_pic {
+
+     display: block;
+     text-align: center;
+
+}
+
+
+.con_pic img{
+
+    
+    width: 28.8em;
+    height: 37.938em;
+}
+
+}
+
+@media (min-width: 60em) {
+
+.top_logo img {
+
+    margin-left: 15em;
+
+}
+
+.logoh {
+
+    display: none;
+}
+.nav {
+
+    text-align: center;
+}
+
+.mainmenu {
+        
+            display: inline;
+            
+}
+
+
+.music {
+
+    display: block;
+    
+}
+
+.arthead2 {
+    text-align: center;
+    background-color: #740b00;
+    width: 100%;
+    height: 5em;
+    overflow: hidden;
+
+}
+
+.arthead2 h2 {
+    
+    color:  #e3e0c1;
+    font-size: 1em;
+    float: left;
+    padding-top: 1.8em;
+    width: 6.250em;
+    text-align: center;
+    margin-right: 1em;
+    margin-top: 0;
+    height: 5em;
+    
+}
+
+.arthead2 h1 {
+    color:  #e3e0c1;
+    font-size: 1.2em;
+    margin: auto;
+    width: 600px;
+    padding: 0 2em;
+    padding-top: 1em;
+    line-height: 2em;   
+}
+
+.cont_back {
+
+    display: block;
+    background-color: #ecebde;
+    width: 100%;
+    height: 18em;
+    overflow: hidden;
+
+}
+
+.cont_back img {
+
+    float: left;
+    margin: 2em;
+    margin-right: 3em;
+    margin-left: 6em;
+    width: 21em;
+   
+
+}
+
+.cont_back p {
+
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 800px;
+
+}
+
+.social {
+    border-top: 0.063em solid #333;
+    padding-top: 1em;
+
+}
+
+}
+
+@media (min-width: 75em) {
+
+
+.logo img {
+           
+        height: 5em;
+        transition: height 1s;
+}
+
+.logo_container {
+
+    background-image:url(../img/cc.jpg);
+    height: 25em;
+}
+
+.top_logo img {
+
+    margin: 4.9em;
+    margin-left: 22em;
+}
+
+.top_add {
+
+    padding-top: 0.8em;
+    
+}
+
+.container {
+        width: 75%;
+        float: left;
+}
+
+.line {
+
+    width: 25%;
+    float: right;
+
+}
+
+.social {
+
+    margin: 2em;
+}
+.share {
+
+    margin: auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    width: 6.250em;
+}
+
+.address {
+
+    margin-top: 3em;
+}
+
+.tweet {
+    margin-right: 3em;
+    margin-left: 3em;
+    display: block;
+    padding-bottom: 21em;
+    font-size: 0.8em;
+    line-height: 2em;
+    width: 250px;
+}
+
+.tweet h3 {
+    color: #e3e0c1;
+    font-size: 1.2em;
+    margin: 0;
+    background-color: #740b00;
+    width: 100%;
+    height: 5.3em;
+    padding-top: 1.8em;
+    padding-left: 1.5em;
+     
+}
+
+.cont_back {
+
+ 
+    background-color: #ecebde;
+    width: 100%;
+    height: 26em;
+    text-align: center;
+
+     
+}
+
+.cont_back img {
+
+    float: none;
+    margin: 0;
+    margin-top: 3em;
+    width: 21em;
+    transition: margin 1s;
+    
+
+}
+
+.cont_back p {
+
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 800px;
+
+}
+
+} 
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

@@ -1,0 +1,87 @@
+
+.logo_container {
+
+    background-image:url(../img/c2.jpg);
+
+}
+
+.arthead h1 {
+text-align: center;
+vertical-align: middle;
+padding-top: 1.4em;   
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 24.375em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+@media (min-width: 48em) {
+
+		.logo_container {
+
+  
+    height: 30em;
+}
+
+	.top_logo {
+
+		display: none;
+	}
+
+	.con_pic img{
+
+    
+    width: 37.5em;
+    height: 25em;
+ 
+}
+
+@media (min-width: 60em) {
+
+	.logo_container {
+
+  
+    height: 35em;
+}
+
+.social {
+    border-top: 0em solid #333;
+    padding-top: 1em;
+
+	}
+}
+
+@media (min-width: 75em) {
+
+.logo_container {
+
+      height: 40em;
+}
+
+	.container {
+        width: auto;
+        float: none;
+}
+
+.line {
+
+    width: auto;
+    float: none;
+}
+
+.share {
+
+    width: auto;
+}
